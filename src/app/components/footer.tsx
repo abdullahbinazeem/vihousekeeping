@@ -17,12 +17,12 @@ function Footer() {
           <div className="mb-16 xl:mb-0 basis-1/3">
             <a href="" className="flex items-center">
               <img
-                src="https://flowbite.com/docs/images/logo.svg"
+                src="/assets/logo.png"
                 className="h-8 me-3"
                 alt="FlowBite Logo"
               />
               <h1 className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-                Ace Maintenance
+                Vi Housekeeping
               </h1>
             </a>
             <p className="mt-6  text-gray-500 dark:text-gray-400 font-medium ">
@@ -38,22 +38,17 @@ function Footer() {
               <ul className="text-gray-500 dark:text-gray-400 font-medium flex flex-col gap-4">
                 <li>
                   <a href="" className="hover:underline">
-                    Pressure Washing
+                    Residential
                   </a>
                 </li>
                 <li>
                   <a href="" className="hover:underline">
-                    Window Cleaning
+                    Airbnb
                   </a>
                 </li>
                 <li>
                   <a href="" className="hover:underline">
-                    Drive Way & Balcony
-                  </a>
-                </li>
-                <li>
-                  <a href="" className="hover:underline">
-                    Exterior
+                    Commercial
                   </a>
                 </li>
               </ul>
@@ -85,7 +80,7 @@ function Footer() {
                     href="#"
                     className="hover:underline flex gap-2 items-center"
                   >
-                    <Headset /> 604-653-0082
+                    <Headset /> 123-456-7890
                   </a>
                 </li>
                 <li>
@@ -94,7 +89,7 @@ function Footer() {
                     className="hover:underline flex gap-2 items-center whitespace-nowrap"
                   >
                     <Mail className="shrink-0" />
-                    Ace Maintenance@email.com
+                    vihousekeeping@email.com
                   </a>
                 </li>
                 <li>
@@ -102,7 +97,7 @@ function Footer() {
                     href="#"
                     className="hover:underline flex gap-2 items-center"
                   >
-                    <MapPinIcon /> 564 Vancouver, BC
+                    <MapPinIcon /> 123 Vancouver, BC
                   </a>
                 </li>
               </ul>
@@ -112,7 +107,7 @@ function Footer() {
         <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
         <div className="sm:flex sm:items-center sm:justify-between">
           <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
-            © 2024 Ace Maintenance™. All Rights Reserved.
+            © 2024 ViHousekeeping™. All Rights Reserved.
           </span>
           <div className="flex mt-4 sm:justify-center sm:mt-0">
             <a
