@@ -31,7 +31,6 @@ const Hero = () => {
           </div>
           <div className="relative flex-1 z-[-2]">
             <Image
-              quality={100}
               src="/assets/HeroCleaningLady.jpg"
               alt="Clean House"
               fill
