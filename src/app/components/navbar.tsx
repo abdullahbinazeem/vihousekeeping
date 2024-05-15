@@ -13,13 +13,13 @@ function Navbar() {
         <a className="md:block hidden cursor-pointer">
           <p className="text-black font-medium uppercase">Home</p>
         </a>
-        <a className="md:block hidden cursor-pointer">
+        <a className="md:block hidden cursor-pointer" href="#aboutus">
           <p className="text-gray-500 font-medium uppercase">About Us</p>
         </a>
         <a className="md:block hidden cursor-pointer" href="#services">
           <p className="text-gray-500 font-medium uppercase">Serivces</p>
         </a>
-        <a className="md:block hidden cursor-pointer">
+        <a className="md:block hidden cursor-pointer" href="#contact">
           <p className="text-gray-500 uppercase">Contact</p>
         </a>
         <a className="cursor-pointer bg-primary text-white py-3 sm:py-4 px-6 sm:px-8 rounded-full flex gap-2 items-center">

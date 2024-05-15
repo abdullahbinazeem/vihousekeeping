@@ -37,17 +37,17 @@ function Footer() {
               </h2>
               <ul className="text-gray-500 dark:text-gray-400 font-medium flex flex-col gap-4">
                 <li>
-                  <a href="" className="hover:underline">
+                  <a href="#services" className="hover:underline">
                     Residential
                   </a>
                 </li>
                 <li>
-                  <a href="" className="hover:underline">
+                  <a href="#services" className="hover:underline">
                     Airbnb
                   </a>
                 </li>
                 <li>
-                  <a href="" className="hover:underline">
+                  <a href="#services" className="hover:underline">
                     Commercial
                   </a>
                 </li>
@@ -59,13 +59,12 @@ function Footer() {
               </h2>
               <ul className="text-gray-500 flex flex-col gap-4 dark:text-gray-400 font-medium">
                 <li>
-                  <a href="" className="hover:underline ">
+                  <a
+                    href="https://www.facebook.com/profile.php?id=100093047397078"
+                    target="_blank"
+                    className="hover:underline "
+                  >
                     Facebook
-                  </a>
-                </li>
-                <li>
-                  <a href="" className="hover:underline">
-                    Instagram
                   </a>
                 </li>
               </ul>
@@ -80,7 +79,7 @@ function Footer() {
                     href="#"
                     className="hover:underline flex gap-2 items-center"
                   >
-                    <Headset /> 123-456-7890
+                    <Headset /> 604-764 6932
                   </a>
                 </li>
                 <li>
@@ -97,7 +96,7 @@ function Footer() {
                     href="#"
                     className="hover:underline flex gap-2 items-center"
                   >
-                    <MapPinIcon /> 123 Vancouver, BC
+                    <MapPinIcon /> Vancouver, BC, Canada
                   </a>
                 </li>
               </ul>
@@ -111,18 +110,12 @@ function Footer() {
           </span>
           <div className="flex mt-4 sm:justify-center sm:mt-0">
             <a
-              href="#"
+              href="https://www.facebook.com/profile.php?id=100093047397078"
+              target="_blank"
               className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
             >
               <Facebook className="w-6 h-6" />
               <span className="sr-only">Facebook page</span>
-            </a>
-            <a
-              href="#"
-              className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5"
-            >
-              <Instagram className="w-6 h-6" />
-              <span className="sr-only">Discord community</span>
             </a>
           </div>
         </div>

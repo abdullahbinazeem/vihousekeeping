@@ -8,6 +8,7 @@ import Portfolio from "./components/portfolio";
 import Booking from "./components/book";
 import Testimonials from "./components/testimonials";
 import Footer from "./components/footer";
+import Packages from "./components/packages";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <About />
       <Services />
       <Portfolio />
+      <Packages />
       <Testimonials />
       <Booking />
       <Footer />

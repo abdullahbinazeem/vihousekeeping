@@ -20,24 +20,40 @@ type Carousel = {
 
 const carouselItems: Carousel[] = [
   {
-    url: "Wall",
+    url: "Bathroom",
     pic: "1",
   },
   {
-    url: "Backyard",
+    url: "Living Room",
     pic: "2",
   },
   {
-    url: "Window",
+    url: "Bedroom",
     pic: "3",
   },
   {
-    url: "Window",
+    url: "Floor",
     pic: "4",
   },
   {
-    url: "Window",
-    pic: "1",
+    url: "Toilet",
+    pic: "5",
+  },
+  {
+    url: "Shower",
+    pic: "6",
+  },
+  {
+    url: "Balcony",
+    pic: "7",
+  },
+  {
+    url: "Dishwasher",
+    pic: "8",
+  },
+  {
+    url: "FLoor",
+    pic: "9",
   },
 ];
 
